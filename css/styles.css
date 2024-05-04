@@ -1,0 +1,34 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery {
+  max-width: 1440px;
+  max-height: 696px;
+  padding: 24px 156px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  border-radius: 4px;
+  transition: transform 250ms ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
+
+.img-big {
+  width: 1112px;
+  height: 640px;
+  border-radius: 4px;
+}
